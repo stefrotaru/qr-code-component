@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: auto;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qrcontainer {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem 1rem 1rem 1rem;
+    height: auto;
+    width: 310px;
+    border-radius: 1.2rem;
+}
+
+.qrcontainer__image {
+    content: url(../images/image-qr-code.png);
+    height: auto;
+    width: inherit;
+    border-radius: 0.75rem;
+}
+
+.qrcontainer__text-box {
+    padding: 0.5rem 0.4rem 0.5rem 0.4rem;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.qrcontainer__title {
+    padding: 1rem 0 1rem 0;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.qrcontainer__cta {
+    color: hsl(220, 15%, 55%);
+    font-size: 1.15rem;
+}
+
+/* Given footer */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
