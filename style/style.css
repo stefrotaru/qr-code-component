@@ -24,6 +24,9 @@ body {
     height: auto;
     width: 310px;
     border-radius: 1.2rem;
+
+    /* Added some spacing between the card component and the footer */
+    margin-bottom: 1rem;
 }
 
 .qrcontainer__image {
@@ -43,6 +46,7 @@ body {
 }
 
 .qrcontainer__title {
+    color: hsl(218, 44%, 22%);
     padding: 1rem 0 1rem 0;
     font-weight: 700;
     font-size: 1.6rem;
